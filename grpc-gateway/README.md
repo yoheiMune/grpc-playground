@@ -29,7 +29,6 @@ $ protoc -I. \
 This will generate a stub `profile.pb.gw.go`.
 
 ## Implementation
-### gRPC Server
 * [server/main.go](server/main.go)
 * [gateway/main.go](gateway/main.go)
 
@@ -43,6 +42,9 @@ $ go run gateway/main.go
 $ curl -d '{"value":"aaa"}' http://localhost:8080/v1/example/echo
 {"value":"aaa"}
 ```
+
+## More examples
+https://github.com/grpc-ecosystem/grpc-gateway/tree/master/examples
 
 ## References
 https://github.com/grpc-ecosystem/grpc-gateway
