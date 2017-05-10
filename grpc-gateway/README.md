@@ -2,7 +2,7 @@
 This is a sample of gRPC Gateway.
 
 ## Pre installed
-It assumes that you have read the [Project Root README](../) and followed the instruction.  
+It assumes that you have read the [Project Root README](../README.md) and followed the instruction.  
 
 Install another plugins for `protoc`.
 ```shell
