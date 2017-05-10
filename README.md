@@ -1,24 +1,18 @@
-# grpc-playground
-gRPC Playground for Go lang
+# gRPC Playground
+This is a playground for gRPC Go which has several tutorials and sample implementations.
 
-## Pre install
+## Pre installed
 ```shell
+
+# Install `protoc`
 $ brew install protobuf
 
+# Install protoc-gen-go which is a plugin for `protoc`
 $ go get -u github.com/golang/protobuf/protoc-gen-go
 
-~/go/bin # パスを通す.
-$ sudo cp ~/go/bin/protoc-gen-go /usr/local/go/bin/
-
-$ protoc --go_out=plugins=grpc:. my.proto 
-# => my.pb.go
-
-google.golang.org/grpc
-
+# (May need) Add to $PATH
+$ export $PATH=$GOHOME/bin:$PATH
 ```
 
-
-
-## 参考
-[http://blog.fenrir-inc.com/jp/2016/10/grpc-go.html](http://blog.fenrir-inc.com/jp/2016/10/grpc-go.html)
-
+* References
+http://www.grpc.io/docs/quickstart/go.html

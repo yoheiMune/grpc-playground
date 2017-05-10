@@ -1,4 +1,4 @@
-# gRPC Hello World
+# gRPC Hello World for GO
 This is a super-easy sample for beginners.
 
 ## How to Launch
