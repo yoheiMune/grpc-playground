@@ -20,4 +20,5 @@ http://www.grpc.io/docs/quickstart/go.html
 ## Samples
 * [helloworld](./helloworld) : gRPC Hello World.
 * [basics](./basics) : gRPC Basic samples (simple / streaming).
+* [grpc-gateway](./grpc-gateway) : a sample for gRPC Gateway.
 
