@@ -1,0 +1,7 @@
+package: github.com/yoheiMune/grpc-playground
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - protoc-gen-go
+- package: google.golang.org/grpc
+  version: ^1.3.0
