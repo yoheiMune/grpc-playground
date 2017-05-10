@@ -10,6 +10,9 @@ $ go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway
 $ go get -u github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger
 ```
 
+## Proto file
+* [echo.proto](echo.proto)
+
 ## How to convert
 ### Stub
 ```shell
